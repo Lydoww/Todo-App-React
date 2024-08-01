@@ -16,15 +16,7 @@ The project is divided into two parts: the client and the server. You need to se
 
 ### Server Setup
 
-1. **Install the necessary dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-    This will set up the `package-lock.json` file and install all required dependencies.
-
-2. **Create a `.env` file** at the root of the server directory and configure it with your database and server information. Below is an example configuration:
+1. **Create a `.env` file** at the root of the server directory and configure it with your database and server information. Below is an example configuration:
 
     ```env
     USERNAME=test
@@ -33,7 +25,7 @@ The project is divided into two parts: the client and the server. You need to se
     DBPORT=5432
     ```
 
-3. **PostgreSQL Database Setup**
+2. **PostgreSQL Database Setup**
 
    Follow the steps below to set up your PostgreSQL database:
 
@@ -66,7 +58,7 @@ The project is divided into two parts: the client and the server. You need to se
      psql -U username -d dbname -f path/to/file.sql
      ```
 
-### 4. Update the Database Name in `db.js`
+### 3. Update the Database Name in `db.js`
 
 Once you have completed the previous steps, you need to configure your database connection. Open the `db.js` file and update the database name with the name you used during the PostgreSQL setup.
 
