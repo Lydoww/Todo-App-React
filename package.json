@@ -1,0 +1,15 @@
+{
+  "name": "deployed-to-do-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "node ./server/server.js",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "if-env": "^1.0.4"
+  }
+}
