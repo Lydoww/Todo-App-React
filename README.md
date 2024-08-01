@@ -29,7 +29,7 @@ The project is divided into two parts: the client and the server. You need to se
 
    Follow the steps below to set up your PostgreSQL database:
 
-   - **Access the PostgreSQL Interface:**
+   - **Access the PostgreSQL Interface (this is a linux installation):**
 
      ```bash
      sudo -i -u postgres psql
