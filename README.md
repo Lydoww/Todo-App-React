@@ -7,7 +7,7 @@ Welcome to the Todo-App project! This is a task management application built wit
 Before you begin, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (includes npm)
-- [React.js](https://reactjs.org/) (typically installed via npm with `create-react-app` or other setup tools)
+- [PostgreSQL](https://www.postgresql.org/download/)
 - [Visual Studio Code](https://code.visualstudio.com/) (VS Code)
 
 ## Installation
